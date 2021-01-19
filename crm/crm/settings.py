@@ -95,10 +95,10 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'demh2h02iqbpk3',
-        'USER':'fkdmymukcaxcvv',
-        'PASSWORD': 'bd067169fa10afa63bb9074f393cfd5980cff54b1cd1a7ff29eb0987dfc470a9',
-        'HOST':'ec2-3-230-247-88.compute-1.amazonaws.com',
+        'NAME': 'dcrii0ncnsonpg',
+        'USER':'ntcfeunlnbmlrh',
+        'PASSWORD': 'bf61fad378bddb0aebf7153315cc5ecdc89d44312e8225f82ac53dad8827f783',
+        'HOST':'ec2-52-207-25-133.compute-1.amazonaws.com',
         'PORT':'5432'
 
     }
@@ -107,7 +107,7 @@ DATABASES = {
 import dj_database_url
 
 DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
-DATABASES['default'] = dj_database_url.config(default='postgres://fkdmymukcaxcvv:bd067169fa10afa63bb9074f393cfd5980cff54b1cd1a7ff29eb0987dfc470a9@ec2-3-230-247-88.compute-1.amazonaws.com:5432/demh2h02iqbpk3')
+DATABASES['default'] = dj_database_url.config(default='postgres://ntcfeunlnbmlrh:bf61fad378bddb0aebf7153315cc5ecdc89d44312e8225f82ac53dad8827f783@ec2-52-207-25-133.compute-1.amazonaws.com:5432/dcrii0ncnsonpg')
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators

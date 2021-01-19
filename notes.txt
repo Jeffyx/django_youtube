@@ -47,3 +47,13 @@ customers = Customer.objects.all()              (makes a variable thats a dicton
 
 PG Admin 4:
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://flask_user:123abc@localhost/hotleads'
+
+heroku:
+heroku git:remote -a django-youtube
+
+
+
+Python Raw Database:
+    To start database:  heroku run bash
+                        python
+                        from django.db import models
