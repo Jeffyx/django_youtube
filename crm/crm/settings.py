@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '383vv&y-9pcf7v3tunu=6wwk3(c3i)5-1m58t9!4^8myf=4i6s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["django-youtube.herokuapp.com", "127.0.0.1", "73.10.19.197"]
 
